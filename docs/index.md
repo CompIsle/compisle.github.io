@@ -2,7 +2,7 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-Some edited text here with an icon ![an icon](images/bubble.png)
+Some edited text here with an icon ![an icon](img/bubble.png)
 
 ## Commands
 
