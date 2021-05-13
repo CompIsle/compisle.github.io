@@ -9,19 +9,19 @@
       
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.4">
     
     
       
-        <title>My Docs</title>
+        <title>Data Types - My Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.bde7dde4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bde7dde4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ef6f36e2.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
         
       
     
@@ -51,7 +51,7 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
-    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -59,7 +59,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs-compisle" class="md-skip">
+        <a href="#defining-and-declaring-constants-and-variables" class="md-skip">
           Skip to content
         </a>
       
@@ -70,7 +70,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href="../.." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -89,7 +89,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Data Types
             
           </span>
         </div>
@@ -150,7 +150,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href="../.." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -167,58 +167,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Home
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         Home
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -229,12 +182,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       <label class="md-nav__link" for="__nav_2">
         CompSci
@@ -250,11 +205,88 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="CompSci/DataTypes/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Data Types
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Data Types
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#defining-and-declaring-constants-and-variables" class="md-nav__link">
+    Defining and declaring constants and variables:
+  </a>
+  
+    <nav class="md-nav" aria-label="Defining and declaring constants and variables:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simple-fixed-length-types" class="md-nav__link">
+    Simple fixed length types
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-length-types" class="md-nav__link">
+    Variable length types
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collection-types" class="md-nav__link">
+    Collection types
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complex-types" class="md-nav__link">
+    Complex types
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-variables" class="md-nav__link">
+    Managing variables:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -264,7 +296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="CompSci/testing/" class="md-nav__link">
+      <a href="../testing/" class="md-nav__link">
         Testing
       </a>
     </li>
@@ -306,7 +338,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Departmental%20Policies/plagiarism/" class="md-nav__link">
+      <a href="../../Departmental%20Policies/plagiarism/" class="md-nav__link">
         Plagiarism
       </a>
     </li>
@@ -318,7 +350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Departmental%20Policies/workflow/" class="md-nav__link">
+      <a href="../../Departmental%20Policies/workflow/" class="md-nav__link">
         Workflow
       </a>
     </li>
@@ -360,7 +392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="git/git-basics/" class="md-nav__link">
+      <a href="../../git/git-basics/" class="md-nav__link">
         Basics
       </a>
     </li>
@@ -372,7 +404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="git/git-bys/" class="md-nav__link">
+      <a href="../../git/git-bys/" class="md-nav__link">
         Before You Start
       </a>
     </li>
@@ -414,7 +446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ResponsiveDesign/responsiveDesign/" class="md-nav__link">
+      <a href="../../ResponsiveDesign/responsiveDesign/" class="md-nav__link">
         Responsive Design
       </a>
     </li>
@@ -435,7 +467,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pdf-from-markdown/" class="md-nav__link">
+      <a href="../../pdf-from-markdown/" class="md-nav__link">
         PDFs
       </a>
     </li>
@@ -450,7 +482,7 @@
   
   
     <li class="md-nav__item">
-      <a href="TechInd/" class="md-nav__link">
+      <a href="../../TechInd/" class="md-nav__link">
         Induction
       </a>
     </li>
@@ -473,8 +505,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -483,15 +513,49 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
+  <a href="#defining-and-declaring-constants-and-variables" class="md-nav__link">
+    Defining and declaring constants and variables:
   </a>
+  
+    <nav class="md-nav" aria-label="Defining and declaring constants and variables:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simple-fixed-length-types" class="md-nav__link">
+    Simple fixed length types
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-length-types" class="md-nav__link">
+    Variable length types
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collection-types" class="md-nav__link">
+    Collection types
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complex-types" class="md-nav__link">
+    Complex types
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
+  <a href="#managing-variables" class="md-nav__link">
+    Managing variables:
   </a>
   
 </li>
@@ -509,22 +573,68 @@
               
                 
                 
-                <h1 id="welcome-to-mkdocs-compisle">Welcome to MkDocs (CompIsle)</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<p>Some edited text here with an icon <img alt="an icon" src="img/bubble.png" /></p>
-<h2 id="commands">Commands</h2>
+                  <h1>Data Types</h1>
+                
+                <h2 id="defining-and-declaring-constants-and-variables">Defining and declaring constants and variables:</h2>
+<p>This is taken directly from the spec as the 'types' students are expected to know about. This list is alphabetical and unstructured. It has some odd gaps (why <strong>array</strong> and <strong>set</strong> but not <strong>list</strong>?), some ambiguities (<strong>object</strong> as in JavaScript or object as in OOP, <strong>record</strong> as in databases or as in Pascal?), and cheerfully mixes fixed width types with variable length types and simple types with collection types.</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>alphanumeric strings</li>
+<li>arrays</li>
+<li>Boolean</li>
+<li>characters</li>
+<li>date/time</li>
+<li>floating point (real)</li>
+<li>integers</li>
+<li>objects</li>
+<li>records</li>
+<li>sets</li>
+<li>strings</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<hr />
+<p>This is a working version with i) obvious omissions added ii) more structure iii) a resolution of ambiguities</p>
+<h3 id="simple-fixed-length-types">Simple fixed length types</h3>
+<p>These types can be stored in a fixed number of bits/bytes. The <strong>char</strong> type is implemented very differently in different programming languages and may not even exist. The decimal or currency type also tends to be handled differently in different systems and datetime may be </p>
+<ul>
+<li>integer</li>
+<li>float (real)</li>
+<li>datetime</li>
+<li>decimal(currency)</li>
+<li>boolean</li>
+<li>char</li>
+</ul>
+<h3 id="variable-length-types">Variable length types</h3>
+<p>These types have a length and will require a number of bytes related to their length. In many systems strings will also have an associated <em>encoding</em> which wil affect their length (in bytes)</p>
+<ul>
+<li>string</li>
+</ul>
+<h3 id="collection-types">Collection types</h3>
+<ul>
+<li>array</li>
+<li>list</li>
+<li>set </li>
+<li>dictionary (associative array)</li>
+</ul>
+<h3 id="complex-types">Complex types</h3>
+<ul>
+<li>record</li>
+<li>object</li>
+</ul>
+<p>The distinction between these is otiose (look it up). Arguably record is a subset of object. A record is generally considered as a collection of data of potentially different types in named 'fields'. Usually a record has a fixed, global definition and cannot be altered in the course of a program.
+Objects are often considered as user-defined data types. They also contain fields that may be of any other defined type, but may have different collections of fields at different types and may also contain things that are not simply data, eg executable code ('methods').</p>
+<h2 id="managing-variables">Managing variables:</h2>
+<ul>
+<li>local and global variables</li>
+</ul>
+<p>Differ in 'scope'. Can they interact with only one item/object/section of code or with everything in the program?</p>
+<ul>
+<li>naming conventions</li>
+</ul>
+<p>Most languages have ideas about good and bad ways of naming variables (and other things)</p>
+<p>maximumValue
+MaximumValue
+maximum-value
+maximum_value</p>
+<p>see https://www.python.org/dev/peps/pep-0008/#naming-conventions</p>
                 
               
               
@@ -543,14 +653,28 @@ docs/
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
+        <a href="../.." class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Home
+            </div>
+          </div>
+        </a>
       
-        <a href="CompSci/DataTypes/" class="md-footer__link md-footer__link--next" rel="next">
+      
+        <a href="../testing/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Data Types
+              Testing
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -579,10 +703,10 @@ docs/
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "assets/javascripts/workers/search.4fa0e4ee.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.4fa0e4ee.min.js", "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.1d3bfcf1.min.js"></script>
+      <script src="../../assets/javascripts/bundle.1d3bfcf1.min.js"></script>
       
     
   </body>

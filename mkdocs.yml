@@ -1,6 +1,22 @@
 site_name: My Docs
 theme:
   name: material
+extra_css:
+  - css/extra.css
+dev_addr: '127.0.0.1:8013'
 nav:
   - Home: index.md
-  - Test: about.md
+  - CompSci:
+    - "Data Types": CompSci/DataTypes.md
+    - "Testing": CompSci/testing.md
+  - Policies:
+    - "Plagiarism": "Departmental Policies/plagiarism.md"
+    - "Workflow": "Departmental Policies/workflow.md"
+  - Git:
+    - Basics: "git/git-basics.md"
+    - "Before You Start": "git/git-bys.md"
+  - Design:
+    - "Responsive Design": "ResponsiveDesign/responsiveDesign.md"
+  - PDFs: pdf-from-markdown.md
+  - "Induction": TechInd.md
+  
