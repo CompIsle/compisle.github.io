@@ -12,3 +12,7 @@ It is not a Wiki: documents here are essentially independent of each other and l
 ## About MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+## TODO
+
+1. Create Welcome page
