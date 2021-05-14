@@ -7,6 +7,8 @@ dev_addr: "127.0.0.1:8013"
 copyright: "A P Oliver 2021- "
 site_dir: "cid"
 site_url: https://compisle.github.io/cid/
+markdown_extensions:
+  - pymdownx.emoji
 nav:
   - Home: index.md
   - CompSci:
