@@ -1,5 +1,7 @@
 # Welcome to CompIsle MkDocs
 
+> __Under development__: documents are sample content only
+
 Documentation repository for the CompIsle GitHub group.
 This is a collation rather than a collection - documents are included here if the best method of delivery is MarkDown fuelled HTML served via a static site. 
 
