@@ -24,3 +24,5 @@ nav:
       - "Responsive Design": "ResponsiveDesign/responsiveDesign.md"
   - PDFs: pdf-from-markdown.md
   - "Induction": TechInd.md
+  - "Welcome": Welcome.md
+  
