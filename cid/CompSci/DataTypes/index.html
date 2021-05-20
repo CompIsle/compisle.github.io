@@ -241,10 +241,10 @@
       
         <li class="md-nav__item">
   <a href="#defining-and-declaring-constants-and-variables" class="md-nav__link">
-    Defining and declaring constants and variables:
+    Defining and declaring constants and variables
   </a>
   
-    <nav class="md-nav" aria-label="Defining and declaring constants and variables:">
+    <nav class="md-nav" aria-label="Defining and declaring constants and variables">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -533,10 +533,10 @@
       
         <li class="md-nav__item">
   <a href="#defining-and-declaring-constants-and-variables" class="md-nav__link">
-    Defining and declaring constants and variables:
+    Defining and declaring constants and variables
   </a>
   
-    <nav class="md-nav" aria-label="Defining and declaring constants and variables:">
+    <nav class="md-nav" aria-label="Defining and declaring constants and variables">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -594,8 +594,8 @@
                 
                   <h1>Data Types</h1>
                 
-                <h2 id="defining-and-declaring-constants-and-variables">Defining and declaring constants and variables:</h2>
-<p>This is taken directly from the spec as the 'types' students are expected to know about. This list is alphabetical and unstructured. It has some odd gaps (why <strong>array</strong> and <strong>set</strong> but not <strong>list</strong>?), some ambiguities (<strong>object</strong> as in JavaScript or object as in OOP, <strong>record</strong> as in databases or as in Pascal?), and cheerfully mixes fixed width types with variable length types and simple types with collection types.</p>
+                <h2 id="defining-and-declaring-constants-and-variables">Defining and declaring constants and variables</h2>
+<p>This is taken directly from the spec as the 'types' students are expected to know about. This list is alphabetical and unstructured. It has some odd gaps (why <strong>array</strong> and <strong>set</strong> but not <strong>list</strong>?), some ambiguities (<strong>object</strong> as in JavaScript or object as in OOP;  <strong>record</strong> as in databases or as in Pascal?), and cheerfully mixes fixed width types with variable length types and simple types with collection types. However ... </p>
 <ul>
 <li>alphanumeric strings</li>
 <li>arrays</li>
@@ -612,7 +612,10 @@
 <hr />
 <p>This is a working version with i) obvious omissions added ii) more structure iii) a resolution of ambiguities</p>
 <h3 id="simple-fixed-length-types">Simple fixed length types</h3>
-<p>These types can be stored in a fixed number of bits/bytes. The <strong>char</strong> type is implemented very differently in different programming languages and may not even exist. The decimal or currency type also tends to be handled differently in different systems and datetime may be </p>
+<p>These types can be stored in a fixed number of bits/bytes. The <strong>char</strong> type is implemented very differently in different programming languages and may not even exist. The decimal or currency type also tends to be handled differently in different systems and datetime may be represented differently in different systems. </p>
+<p>Some languages (eg Python) while capable of working with fixed-width integers internally, will offer variable-length (unlimited precision) integers to the programmer.</p>
+<p>Some languages do not support a separate notion of 'char' and 'string' either visualizing char as a unit-length string or a string as an array of characters.</p>
+<p>All told, there are few general statements that are true across all systems about whether a particular type is fixed width or not.</p>
 <ul>
 <li>integer</li>
 <li>float (real)</li>
@@ -622,7 +625,7 @@
 <li>char</li>
 </ul>
 <h3 id="variable-length-types">Variable length types</h3>
-<p>These types have a length and will require a number of bytes related to their length. In many systems strings will also have an associated <em>encoding</em> which wil affect their length (in bytes)</p>
+<p>Conversely, we can guarantee that some types will be variable length. Strings are an obvious example. Apart from textual variations, strings will also have an associated <em>encoding</em> which will affect their length (in bytes)</p>
 <ul>
 <li>string</li>
 </ul>
@@ -642,18 +645,22 @@
 Objects are often considered as user-defined data types. They also contain fields that may be of any other defined type, but may have different collections of fields at different types and may also contain things that are not simply data, eg executable code ('methods').</p>
 <h2 id="managing-variables">Managing variables:</h2>
 <ul>
-<li>local and global variables</li>
-</ul>
+<li>
+<p>local and global variables</p>
 <p>Differ in 'scope'. Can they interact with only one item/object/section of code or with everything in the program?</p>
-<ul>
-<li>naming conventions</li>
-</ul>
+</li>
+<li>
+<p>naming conventions</p>
 <p>Most languages have ideas about good and bad ways of naming variables (and other things)</p>
-<p>maximumValue
-MaximumValue
-maximum-value
-maximum_value</p>
-<p>see https://www.python.org/dev/peps/pep-0008/#naming-conventions</p>
+<p><code>maximumValue MaximumValue maximum-value maximum_value</code></p>
+<p>see <a href="https://www.python.org/dev/peps/pep-0008/#naming-conventions">this</a> for naming conventions in Python.</p>
+</li>
+<li>
+<p>lifetime</p>
+<p>The distinction between lifetime and scope can cause confusion. Scope is about where in the code the variable is visible. Lifetime is about when the variable is created (RAM allocated) and when it is detroyed (RAM released.</p>
+<p>In some languages it would be illegal to refer to a variable before it has been declared, others might not care so long as it is declared somewhere in the sources, yet others might create it dynamically on first mention. Similarly with deallocation; some languages would do it as soon as the variable is no longer 'in use', some when it goes out of scope, some at some point after one of those two things, some expect the programmer to be responsible and so on.</p>
+</li>
+</ul>
                 
               
               

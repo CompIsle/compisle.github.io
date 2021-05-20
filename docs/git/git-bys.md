@@ -1,5 +1,4 @@
 ---
-title: Git Before You Start
 summary: Things to install/set-up prior to Git training
 author: APO
 date: 2021-05-13
@@ -58,4 +57,3 @@ Once again, just run the installer and let it finish.
 [img1]: ../img/git/img1s.png
 [img2]: ../img/git/img2s.png
 [img3]: ../img/git/img3.png
-
