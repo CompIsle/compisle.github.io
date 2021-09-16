@@ -20,6 +20,8 @@ nav:
   - Git:
       - Basics: "git/git-basics.md"
       - "Before You Start": "git/git-bys.md"
+  - L3:
+      - "Unit 03": "L3 Units/Unit03/Resources.md"
   - Design:
       - "Responsive Design": "ResponsiveDesign/responsiveDesign.md"
   - PDFs: pdf-from-markdown.md
