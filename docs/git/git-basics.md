@@ -1,6 +1,6 @@
 ![](https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png)
 ## What it is, basics of use, what is covered
-##### Ashley Oliver, March 2017, revised Feb 2021
+##### Ashley Oliver, March 2017, revised Sep 2021
 
 Git is an scvs, a source code versioning system.
 
@@ -228,6 +228,10 @@ If you did create a private repo read [Troubleshooting 1](#troubleshooting) befo
 	For GitHub this means press the 'New' button, come up with a name for the repo, possibly (depending on your account type) select Private/Public (use Public by default), you want an empty repo so do not check any of the boxes.
 
 	Copy the repo url it wil be something like `https://github.com/<uname>/<repo>`
+
+> Logging in to GitHub
+>
+> Before we can make changes we will need to be authenticated and authorized to do so. Currently there are two ways this can be done whether at the command line or in Visual Code. You can authenticate using the web site (simple, once, but you have to do it __every__ time you make a change, gets old, quickly) or using a Personal Access Token (more to think about the first time, but once only). To create a PAT, find Settings - it's in the dropdown from your profile/account icon in the top right of your dashboard). Now scroll down until you see `Developer Settings' in the left side menu (it is near the bottom). On the next screen, select 'Personal Access Tokens' in the left menu.
 
 +  Back in a Visual Code terminal 
 	
