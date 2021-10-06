@@ -28,7 +28,7 @@
 
     Use numbers wherever possible (and relevant). They are unambiguous and lend authority to your work.
 
-    > If it can't be expressed in figures, it is not **science**; it is opinion.
+    > "If it can't be expressed in figures, it is not **science**; it is opinion."
     Robert Heinlein
 
 7. Adjectives and Adverbs
@@ -37,6 +37,12 @@
 
     >  “When you catch an adjective, kill it. No, I don't mean utterly, but kill most of them--then the rest will be valuable. They weaken when they are close together. They give strength when they are far apart.”
     Mark Twain
+
+    Im other words, use adjectives and adverbs *sparingly* and only when the meaning would not be the same without them.
+
+    Adjectives: modify nouns and can be used attibutively, before the noun, "the blue ball" or predicatively, after a verb, "the ball is blue". It is attributive adjectives that are misused. What information do I get from "It was raining very hard" that is missing from "it was raining hard"?
+
+    Adverbs: modify verbs, often, although not always, end --ly and are just as abused. "He looked thoroughly wretched" tells me nothing that "He looked wretched" does not.
 
 ----
 
