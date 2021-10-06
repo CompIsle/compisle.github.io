@@ -6,13 +6,13 @@
 
 2. SPaG
 
-   At L3 I can - and will - fail assignments if the Spelling, Punctuation and Grammar is so poor that it interferes with my ability to understand. I am not supposed to be guessing what you meant, it is supposed to be indisputable. Once again, if you are weak in this area, get support. Proofreading is essential. Use - but neither trust nor rely upon (they get things wrong too) - spell checkers and grammar checkers.
+    At L3 I can - and will - fail assignments if the Spelling, Punctuation and Grammar is so poor that it interferes with my ability to understand. I am not supposed to be guessing what you meant, it is supposed to be indisputable. Once again, if you are weak in this area, get support. Proofreading is essential. Use - but neither trust nor rely upon (they get things wrong too) - spell checkers and grammar checkers.
 
-   If you doubt your own skills, *keep it simple*. Primary school level writing that is correct is better than pretending to skills you do not have.
+    If you doubt your own skills, *keep it simple*. Primary school level writing that is correct is better than pretending to skills you do not have.
 
 3. Factually Correct
 
-   An 'instafail' in a L3 assignment will be telling me what ain't so. Do not make things up. Do check your facts. Do not trust single sources especially if they are out-of-date or off-topic (some technical terms are used in more than one discipline).
+    An 'instafail' in a L3 assignment will be telling me what ain't so. Do not make things up. Do check your facts. Do not trust single sources especially if they are out-of-date or off-topic (some technical terms are used in more than one discipline).
 
 4. Referencing
 
