@@ -25,6 +25,7 @@ nav:
       - "Unit 03": "L3 Units/Unit03/Resources.md"
   - Design:
       - "Responsive Design": "ResponsiveDesign/responsiveDesign.md"
+      - "Storyboards": "ResponsiveDesign/storyboarding.md"
   - PDFs: pdf-from-markdown.md
   - "Induction": TechInd.md
   - "Welcome": Welcome.md
