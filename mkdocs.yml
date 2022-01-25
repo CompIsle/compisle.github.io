@@ -26,6 +26,8 @@ nav:
   - Design:
       - "Responsive Design": "ResponsiveDesign/responsiveDesign.md"
       - "Storyboards": "ResponsiveDesign/storyboarding.md"
+  - Tooling:
+      - "Visual Code Template for Bootstrap": "Tooling/Visual Code/Bootstrap-template.md"
   - PDFs: pdf-from-markdown.md
   - "Induction": TechInd.md
   - "Welcome": Welcome.md
